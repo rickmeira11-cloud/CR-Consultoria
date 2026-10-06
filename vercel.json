@@ -1,6 +1,14 @@
 {
   "headers": [
     {
+      "source": "/assets/cr-logo.webp",
+      "headers": [{ "key": "Content-Type", "value": "image/webp" }]
+    },
+    {
+      "source": "/apple-touch-icon.png",
+      "headers": [{ "key": "Content-Type", "value": "image/png" }]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         { "key": "X-Frame-Options", "value": "DENY" },
